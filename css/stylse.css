@@ -6,7 +6,7 @@ body{
 .grid-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 20% 30% 30%;
+    grid-template-rows: 20% 40% 40%;
     grid-template-areas: 
     'item1 item1'
     'item2 item3'
@@ -20,6 +20,7 @@ body{
 }
 .item1{
     grid-area: item1;
+    background-color: antiquewhite;
 }
 .item2{
     grid-area: item2;
@@ -38,10 +39,10 @@ body{
     width: 60%;
 }
 .footer>div{
-    margin: 5px;
+    margin: 10px;
 }
 a{
     margin-left: 300px;
     width: 30%;
-    font-size:23px ;
+    font-size:30px ;
 }
